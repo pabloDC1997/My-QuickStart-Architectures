@@ -20,8 +20,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		//$this->load->library('template');
-		//$this->template->render_auth('auth/auth', [], 'Teste');
-		print base_url('public/');
+		$this->load->library('template');
+		$this->template->render_auth('auth/auth', [], 'Teste');
+		
 	}
 }
