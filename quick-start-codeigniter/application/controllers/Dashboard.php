@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Auth extends CI_Controller {
+class Dashboard extends CI_Controller {
 
     function __construct() {
         parent::__construct();
@@ -10,7 +10,8 @@ class Auth extends CI_Controller {
 
 	public function index() {
         
-		$this->template->render_auth('auth/auth', [], 'Teste');
+        
+        $this->template->render_dashboard('auth/auth', [], 'Teste');
     }
     
 }
