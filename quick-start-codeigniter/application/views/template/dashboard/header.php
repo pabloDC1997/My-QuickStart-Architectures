@@ -715,3 +715,18 @@
         
         </aside>
         <!-- end: sidebar -->
+        <section role="main" class="content-body">
+            <header class="page-header">
+                <h2>Dashboard</h2>
+            </header>
+
+            <div class="row">
+                
+            </div>
+
+            <!-- start: page -->
+            <div class="row">
+                
+            </div>
+            <!-- end: page -->
+        </section>
