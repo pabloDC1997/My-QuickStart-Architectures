@@ -30,9 +30,9 @@ class Template {
         $pageTitle = $pageTitle ?? 'Dashboard';
         $dataHeader = [ 'page_title' =>  $this->app_name.$pageTitle ];
 
-        $this->CI->load->view('template/dashboard/header', $dataHeader );
-        $this->CI->load->view($view, $dataView );
-        $this->CI->load->view('template/dashboard/footer' );
+        $this->CI->load->view('template/dashboard/header', $dataHeader);
+        $this->CI->load->view($view, $dataView);
+        $this->CI->load->view('template/dashboard/footer');
 
     }           
 }
